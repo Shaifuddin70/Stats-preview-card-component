@@ -21,14 +21,15 @@ body {
   width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-radius: 20px;
+  border-radius: 10px;
   height: 400px;
+  box-shadow: 10px 10px 200px rgb(21, 17, 114);
 }
 img {
   width: 100%;
   max-width: 500px;
   height: 400px;
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 10px 10px 0;
 }
 .text-box {
   color: white;
@@ -51,3 +52,9 @@ h3 {
 em {
   color: rgb(168, 94, 211);
 }
+@media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+  
