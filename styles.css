@@ -51,32 +51,3 @@ h3 {
 em {
   color: rgb(168, 94, 211);
 }
-
-/* html{
-    background-color: rgb(10, 12, 27);
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-}
-.card-box{
-    width: 1000px;
-    height: auto;
-}
-.text-box{
-color: white;
-width: 500px;
-height: auto;
-align-items: center;
-
-}
-.row{
-    background-color: rgb(28, 25, 56);
-}
-.picture img{
-    width: 500px;
-    height: auto;
-  
-    
-} */
