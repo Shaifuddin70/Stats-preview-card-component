@@ -81,6 +81,7 @@ em {
     color: white;
     padding: 20px;
     order: 2;
+    border-radius: 10px;
     background-color: rgb(28, 25, 56);
     text-align: center;
   }
